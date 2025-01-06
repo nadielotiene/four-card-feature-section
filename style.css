@@ -9,42 +9,54 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     font-family: "Poppins", serif;
     font-size: 15px;
     line-height: 1.5;
-    color: hsl(228, 12%, 44%);
+    color: hsl(229, 6%, 66%);
     background-color: hsl(0, 0%, 98%);
     min-height: 100vh;
+    /* min-width: 100%; */
+    padding: 5rem 1rem;
 }
 
 .slogan-thin {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 200;
 }
 
 .slogan-bold {
-    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .info {
-    inline-size: 380px;
+    inline-size: 345px;
+    font-size: 1.1rem;
+    padding: 1.3rem 0 3rem;
 }
 
 .text {
+    /* font-size: 1rem; */
     font-weight: 400;
 }
 
 .cards {
+    background-color: hsl(0, 0%, 98%);
+    text-align: left;
     display: flex;
     flex-direction: column;
     border-top: .5rem solid;
     border-radius: .5rem;
     box-shadow: 0 8px 6px 6px #aaa;
-    width: 400px;
-    height: 275px;
+    /* width: 350px; */
+    max-width: 22rem;
+    /* max-width: 90%; */
+    /* height: 250px; */
+    height: 15.5rem;
     margin: 1rem;
-    padding: 2%;
+    padding: 1.5rem;
 }
 
 .cyan {border-color: hsl(180, 62%, 55%);}
@@ -53,14 +65,15 @@ body {
 .blue {border-color: hsl(212, 86%, 64%);}
 
 .card-title {
+    color: hsl(234, 12%, 34%);
     font-size: 1.4rem;
     font-weight: 600;
 }
 
 img {
-    width: 20%;
+    width: 4rem;
     height: auto;
-    margin-top: 20%;
+    margin-top: 2rem;
     align-self: flex-end;
 }
 
