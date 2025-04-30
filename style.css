@@ -73,7 +73,6 @@ img {
 
     .main {
         max-width: 100%;
-        background: red;
         display: flex;
         justify-content: center;
     }
@@ -96,13 +95,11 @@ img {
     .row {
         display: flex;
         gap: 2rem;
-        background: blue;
     }
     
     .cards-col {
         align-content: center;
         width: 100%;
-        background: green;
     }
 }
 
