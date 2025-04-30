@@ -45,6 +45,7 @@ body {
     max-width: 22rem;
     margin: 2rem auto;
     padding: 2.5rem 1.5rem;
+    max-height: 342px;
 }
 
 .cyan {border-color: hsl(180, 62%, 55%);}
@@ -70,32 +71,38 @@ img {
 
 @media (min-width: 992px) {
 
+    .main {
+        max-width: 100%;
+        background: red;
+        display: flex;
+        justify-content: center;
+    }
+
     .header-info {
         max-width: 32rem;
     }
-
+    
     .cards {
         width: 100%;
-        max-width: 28rem;
-        flex: 1;
-        /* margin: 5%; */
-        padding: 2rem 1.5rem;
+        height: 100%;
+        max-width: 28em;
+        padding: auto 1.5rem;
     }
-
+    
     .red {
         margin-bottom: 10%;
     }
-
+        
     .row {
         display: flex;
-
-        flex-direction: row;
-        justify-content: center;
         gap: 2rem;
+        background: blue;
     }
-
+    
     .cards-col {
         align-content: center;
+        width: 100%;
+        background: green;
     }
 }
 
